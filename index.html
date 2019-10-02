@@ -1,0 +1,381 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css"
+    integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+  <link rel="stylesheet" href="style.css">
+  <script src="js/scripts.js"></script>
+  <link rel="stylesheet" type="text/css" href="style.css">
+  <title>Bilbao </title>
+</head>
+
+<body style="background-color:rgb(26, 30, 53);">
+  <div class="container-fluid">
+    <div>
+
+      <!--NAV-->
+      <nav class="navbar navbar-expand-lg navbar-light bg-light fixed-top">
+        <a class="navbar-brand" href="">Bilbao</a>
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarTogglerDemo02"
+          aria-controls="navbarTogglerDemo02" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+
+        <div class="collapse navbar-collapse" id="navbarTogglerDemo02">
+          <ul class="navbar-nav mr-auto mt-2 mt-lg-0">
+            <li class="nav-item active">
+              <a class="nav-link" href="#"><span class="sr-only">(current)</span></a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#carouselExampleIndicators">Fotos</a>
+            </li>
+            <li class="nav-item">
+                <a class="nav-link" href="#bilbao">Información</a>
+              </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#gastronomia">Gastronomía</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="alojamientos.html">Alojamientos</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#form">Contáctanos</a>
+            </li>
+          </ul>
+          <div class="rss">
+            
+
+          </div>
+          <form class="form-inline my-2 my-lg-0 w-100">
+            <input class="form-control mr-sm-2" type="search" placeholder="Buscar">
+            <button class="btn btn-outline-primary my-2 my-sm-0" onclick="quepasa()" type="submit">Buscar</button>
+            <br>
+
+          </form>
+
+          <div class="custom-control custom-switch">
+            <input type="checkbox" class="custom-control-input" id="customSwitches" onclick="CambiarTema()">
+            <label class="custom-control-label" for="customSwitches">Cambiar Tema</label>
+          </div>
+        </div>
+      </nav>
+
+
+    </div>
+    <!-- CAROUSEL -->
+
+    <div id="carouselExampleIndicators" class="carousel slide" data-ride="carousel">
+      <ol class="carousel-indicators">
+        <li data-target="#carouselExampleIndicators" data-slide-to="0" class="active"></li>
+        <li data-target="#carouselExampleIndicators" data-slide-to="1"></li>
+        <li data-target="#carouselExampleIndicators" data-slide-to="2"></li>
+        <li data-target="#carouselExampleIndicators" data-slide-to="3"></li>
+        <li data-target="#carouselExampleIndicators" data-slide-to="4"></li>
+        <li data-target="#carouselExampleIndicators" data-slide-to="5"></li>
+      </ol>
+      <div class="carousel-inner">
+        <div class="carousel-item active">
+          <img class="d-block " src="images/ayuntamiento.jpg" alt="First slide">
+          <p class="carousel-texto">AYUNTAMIENTO DE BILBAO</p>
+        </div>
+        <div class="carousel-item ">
+          <img class="d-block " src="images/guggenheim.jpg" alt="Second slide">
+          <p class="carousel-texto">MUSEO GUGGENHEIM</p>
+        </div>
+        <div class="carousel-item ">
+          <img class="d-block " src="images/palacio_euskalduna.jpg" alt="Third slide">
+          <p class="carousel-texto">PALACIO EUSKALDUNA</p>
+        </div>
+        <div class="carousel-item">
+          <img class="d-block  " src="images/Parque_Etxebarria.jpg" alt="Fourth slide">
+          <p class="carousel-texto">PARQUE ETXEBARRIA</p>
+        </div>
+        <div class="carousel-item ">
+          <img class="d-block " src="images/Puppy.jpg" alt="Fifth slide">
+          <p class="carousel-texto">MASCOTA PUPPY</p>
+        </div>
+        <div class="carousel-item">
+          <img class="d-block  " src="images/teatro_arriaga.jpg" alt="Sixth slide">
+          <p class="carousel-texto">TEATRO ARRAIGA</p>
+        </div>
+
+      </div>
+      <a class="carousel-control-prev" href="#carouselExampleIndicators" role="button" data-slide="prev">
+        <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+        <span class="sr-only">Previous</span>
+      </a>
+      <a class="carousel-control-next" href="#carouselExampleIndicators" role="button" data-slide="next">
+        <span class="carousel-control-next-icon" aria-hidden="true"></span>
+        <span class="sr-only">Next</span>
+      </a>
+    </div>
+    <hr id="bilbao"/>
+    <br>
+    <br>
+    <!-- SOBRE BILBAO -->
+    <div  class="bilbao"></div>
+    <h2 class="text-center">SOBRE BILBAO</h2>
+    <br>
+    <br>
+    <div class="container">
+      <div class="row">
+
+
+        <div class="col-md-4">
+
+          <img class="escudo" src="images/escudo.jpg">
+
+        </div>
+        <div class="col-md-6">
+          <br>
+          <p>
+            Bilbao (en euskera, Bilbo)​ es un municipio situado en el norte de España
+            y una villa de dicho municipio, capital de la provincia y territorio histórico
+            de Vizcaya, en la comunidad autónoma del País Vasco. La villa de Bilbao es la
+            capital y única localidad del municipio, y con 345 821 habitantes según el padrón
+            de 2018,10​ es la urbe más poblada de la comunidad autónoma, siendo la cabecera
+            del área metropolitana de Bilbao, una conurbación de más de 1 000 000 de
+            habitantes11​ que se extiende a lo largo de la ría de Bilbao o del Nervión.
+            
+          </p>
+          <p><a href="https://es.wikipedia.org/wiki/Bilbao" class="btn btn-primary">Saber más</a></p>
+          
+          
+
+        </div>
+      </div>
+    </div>
+    <br>
+    <br>
+
+
+  </div>
+
+  <hr/ id="form">
+  <br>
+  <br>
+  <!-- FORMULARIO -->
+  <div  class="formulario">
+    <h2 class="text-center">CONTÁCTANOS</h2>
+    <br>
+    <form name="formulario" class="form-inline-block" action="https://www.google.es" onsubmit="return validar()">
+
+      <div class="container">
+        <div class="row">
+          <div class="col">
+            <div class="form-group">
+              <label for="Email">Dirección email</label>
+              <input type="text" class="form-control" id="email" aria-describedby="emailHelp" placeholder="Enter email">
+              <small id="emailHelp" class="form-text text-muted">No vamos a compartir tu email a nadie.</small>
+            </div>
+          </div>
+
+          <div class="col">
+            <div class="form-group">
+              <label for="Nombre">Nombre</label>
+              <input type="text" class="form-control" id="nombre" onkeypress="return nom(event)">
+
+            </div>
+          </div>
+
+          <div class="col">
+            <div class="form-group">
+              <label for="Telefono">Telefono</label>
+              <input type="text" class="form-control" id="telefono" onkeypress="return telef(event)">
+            </div>
+          </div>
+        </div>
+        <div class="row">
+
+          <div class="col">
+            <div class="form-group">
+              <label for="Poblacion">Población</label>
+              <input type="text" class="form-control" id="poblacion" onkeypress="return pob(event)">
+            </div>
+          </div>
+
+          <div class="col">
+            <div class="form-group">
+              <label for="Postal">Código Postal</label>
+              <input type="text" class="form-control" id="postala" onkeypress="return postal(event)">
+
+
+            </div>
+
+          </div>
+          <button type="submit" class="btn btn-primary btn-lg btn-block">SUBMIT</button>
+        </div>
+
+      </div>
+    </form>
+    </form>
+
+    <!-- COMIDAS -->
+    <br id="gastronomia">
+  <hr/>
+  <br>
+    <div class="album py-5 bg-dark">
+        <h2 class="comida_titulo">COMIDAS</h2>
+        <br>
+      <div class="container">
+        <div class="row">
+                    <!-- PRIMERA LINEA -->
+
+          <div class="col-md-4">
+            <div class="card mb-4 shadow-sm">
+                <a href="https://es.wikipedia.org/wiki/Bilbao">
+              <img class="bd-placeholder-img card-img-top gastronomia" src="images/gastro/bacalao_al_pil_pil.jpg"
+                alt="bacalao_al_pil_pil">
+              <div class="texto_imagen_gastro">Bacalao Al Pil Pil</div>
+            </a>
+            </div>
+          </div>
+          <div class="col-md-4">
+            <div class="card mb-4 shadow-sm">
+                <a href="https://es.wikipedia.org/wiki/Bilbao">
+              <img class="bd-placeholder-img card-img-top gastronomia" src="images/gastro/angulas_a_la_bilbaina.jpg"
+                alt="angulas_a_la_bilbaina">
+              <div class="texto_imagen_gastro">Angulas A La Bilbaina</div>
+            </a>
+            </div>
+          </div>
+          <div class="col-md-4">
+            <div class="card mb-4 shadow-sm">
+                <a href="https://es.wikipedia.org/wiki/Bilbao">
+              <img class="bd-placeholder-img card-img-top gastronomia" src="images/gastro/banner_pimtxos_bilbao-760x570.jpg"
+                alt="pintxos">
+              <div class="texto_imagen_gastro">Pintxos</div>
+            </a>
+            </div>
+          </div>
+          <!-- SEGUNDA LINEA -->
+          <div class="col-md-4">
+              <div class="card mb-4 shadow-sm">
+                  <a href="https://es.wikipedia.org/wiki/Bilbao">
+                <img class="bd-placeholder-img card-img-top gastronomia" src="images/gastro/champis.jpg"
+                  alt="champis">
+                <div class="texto_imagen_gastro">Champis</div>
+              </a>
+              </div>
+            </div>
+            <div class="col-md-4">
+              <div class="card mb-4 shadow-sm">
+                  <a href="https://es.wikipedia.org/wiki/Bilbao">
+                <img class="bd-placeholder-img card-img-top gastronomia" src="images/gastro/cocochas_en_salsa_verde.jpg"
+                  alt="cocochas_en_salsa_verde">
+                <div class="texto_imagen_gastro">Cocochas En Salsa Verde</div>
+              </a>
+              </div>
+            </div>
+            <div class="col-md-4">
+              <div class="card mb-4 shadow-sm">
+                  <a href="https://es.wikipedia.org/wiki/Bilbao">
+                <img class="bd-placeholder-img card-img-top gastronomia" src="images/gastro/marmita_de_bonito.jpg"
+                  alt="marmita_de_bonito">
+                <div class="texto_imagen_gastro">Marmita De Bonito</div>
+              </a>
+              </div>
+            </div>
+          <!-- TERCERA LINEA -->
+          <div class="col-md-4">
+              <div class="card mb-4 shadow-sm">
+                  <a href="https://es.wikipedia.org/wiki/Bilbao">
+                <img class="bd-placeholder-img card-img-top gastronomia" src="images/gastro/pantxineta2.jpg"
+                  alt="pantxineta">
+                <div class="texto_imagen_gastro">Pantxineta</div>
+              </a>
+              </div>
+            </div>
+            <div class="col-md-4">
+              <div class="card mb-4 shadow-sm">
+                  <a href="https://es.wikipedia.org/wiki/Bilbao">
+                <img class="bd-placeholder-img card-img-top gastronomia" src="images/gastro/rabas.jpg"
+                  alt="rabas">
+                <div class="texto_imagen_gastro">Rabas</div>
+              </a>
+              </div>
+            </div>
+            <div class="col-md-4">
+              <div class="card mb-4 shadow-sm">
+                  <a href="https://es.wikipedia.org/wiki/Bilbao">
+                <img class="bd-placeholder-img card-img-top gastronomia" src="images/gastro/BolloMantequillaX.jpg"
+                  alt="bollo_de_mantequilla">
+                <div class="texto_imagen_gastro">Bollo De Mantequilla</div>
+              </a>
+              </div>
+            </div>
+          <!-- CUARTA LINEA -->
+          <div class="col-md-4">
+              <div class="card mb-4 shadow-sm">
+                  <a href="https://es.wikipedia.org/wiki/Bilbao">
+                <img class="bd-placeholder-img card-img-top gastronomia" src="images/gastro/Carolina.jpg"
+                  alt="carolina">
+                <div class="texto_imagen_gastro">Carolina</div>
+              </a>
+              </div>
+            </div>
+            <div class="col-md-4">
+              <div class="card mb-4 shadow-sm">
+                  <a href="https://es.wikipedia.org/wiki/Bilbao">
+                <img class="bd-placeholder-img card-img-top gastronomia" src="images/gastro/goxua.jpg"
+                  alt="goxua">
+                <div class="texto_imagen_gastro">Goxua</div>
+              </a>
+              </div>
+            </div>
+            <div class="col-md-4">
+              <div class="card mb-4 shadow-sm">
+                  <a href="https://es.wikipedia.org/wiki/Bilbao">
+                <img class="bd-placeholder-img card-img-top gastronomia" src="images/gastro/PastelArroz.jpg"
+                  alt="pastel_de_arroz">
+                <div class="texto_imagen_gastro">Pastel De Arroz</div>
+              </a>
+              </div>
+            </div>
+        </div>
+      </div>
+    </div>
+    <br>
+
+    <div class="w-100 fixed-bottom text-right">
+      <div id="marcadeagua">
+        <h5>Grupo4 2019-2020</h5>
+      </div>
+    </div>
+
+  </div>
+  </div>
+  <div class="footer">
+    <ul>
+      <li>
+          <a href="https://twitter.com/bilbao_udala?lang=es"><img src="images/twitter.png"></a>
+      </li>
+      <li>
+          <a href="https://www.instagram.com/explore/tags/bilbao/top/?hl=es"><img src="images/instagram.png"></a>
+      </li>
+      <li>
+          <a href="https://www.facebook.com/Bilbo.Bilbao"><img src="images/facebook.png"></a>
+      </li>
+
+    </ul>
+  </div>
+  
+</body>
+
+
+
+
+
+
+<script src="https://code.jquery.com/jquery-3.3.1.slim.min.js"
+  integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js"
+  integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>
+<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"
+  integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
+
+</html>

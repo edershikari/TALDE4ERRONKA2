@@ -1,0 +1,124 @@
+/*body{
+    background-color:rgb(26, 30, 53);
+}*/
+
+img{
+    width:100%;
+    margin:0 auto;
+}
+
+.bilbao h2, p{
+    color:white;
+    text-align: center;
+}
+h2{
+    color: white;
+}
+.escudo{
+    display: block;
+  margin-left: auto;
+  margin-right: auto;
+    width: 80%;
+    height: 300px; 
+}
+hr{
+    border-top: 1px solid white;
+  }
+a{
+    text-align: center;
+}
+
+.formulario{
+    color: rgb(214, 214, 214);    
+}
+
+.fixed-top {
+    position: fixed;
+    top: 0;
+    right: 0;
+    left: 0;
+    z-index: 1030;
+  }
+  
+
+.carousel-texto {
+    text-align: center;
+    font-size: 20px;
+    width: 100%;
+    margin:0 auto;
+    position: absolute;
+    bottom: 9%;
+    background-color: rgba(0, 0, 0, 0.781);  
+    color:white;
+    text-shadow: 0 1px 2px rgba(0,0,0,.6);
+  }
+
+#marcadeagua{
+    opacity: 0.3;
+}
+
+
+
+@media(max-width: 700px){
+    .carousel-texto {
+        text-align: center;
+        font-size: 12px;
+        bottom: 15%;
+    }
+    
+
+}
+
+@media(min-width: 1000px){
+    .carousel-texto {
+        text-align: center;
+        font-size: 30px;
+        bottom: 4%;
+    }
+}
+
+@media(max-width: 700px){
+    .footer ul> li> a > img{
+        text-align: center;
+        width: 10px;
+        bottom: 15%;
+        
+    }
+    
+
+}
+.footer >ul  {
+   display: flex;
+   justify-content: center;
+   margin-bottom: 10px;
+  
+
+
+}
+.footer >ul>li{
+   list-style: none;
+   margin: 10px;
+}
+
+.footer ul>li>a> img  {
+    width: 50px;
+   
+ 
+ }
+
+    
+.comida_titulo{
+text-align: center;
+}
+
+.texto_imagen_gastro{
+    text-align: center;
+    font-size: 20px;
+    color:black;
+    font-weight: bold;
+}
+
+.gastronomia{
+    width: 70%;
+}
+
